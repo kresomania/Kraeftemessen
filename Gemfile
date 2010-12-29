@@ -1,30 +1,23 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.0'
+gem 'rails', '3.0.3'
 
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
+gem 'railties', '3.0.3'
 
-gem 'mysql2'
+# MySQL
+gem 'data_objects', '>=0.10.2'
+gem 'do_mysql', '>=0.10.2'
+gem 'ruby-mysql', '>=2.9.3'
 
-# Use unicorn as the web server
-# gem 'unicorn'
+# DataMapper
+gem 'dm-core', '>=1.0.2'
+gem 'dm-timestamps', '>=1.0.2'
+gem 'dm-migrations', '>=1.0.2'
+gem 'dm-aggregates', '>=1.0.2'
+gem 'dm-types', '>=1.0.2'
+gem 'dm-validations', '>=1.0.2'
+gem 'dm-is-list', '>=1.0.2'
+gem 'dm-mysql-adapter', '>=1.0.2'
+gem 'dm-rails', '>=1.0.2'
 
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'ruby-debug'
-
-# Bundle the extra gems:
-# gem 'bj'
-# gem 'nokogiri'
-# gem 'sqlite3-ruby', :require => 'sqlite3'
-# gem 'aws-s3', :require => 'aws/s3'
-
-# Bundle gems for the local environment. Make sure to
-# put test-only gems in this group so their generators
-# and rake tasks are available in development mode:
-# group :development, :test do
-#   gem 'webrat'
-# end
+# gem 'dm-rails', :git => 'git://github.com/datamapper/dm-rails.git'
