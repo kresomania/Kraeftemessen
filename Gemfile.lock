@@ -72,6 +72,8 @@ GEM
       dm-core (~> 1.0.2)
     do_mysql (0.10.2)
       data_objects (= 0.10.2)
+    do_mysql (0.10.2-x86-mingw32)
+      data_objects (= 0.10.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
     extlib (0.9.15)
@@ -114,6 +116,7 @@ GEM
 
 PLATFORMS
   ruby
+  x86-mingw32
 
 DEPENDENCIES
   data_objects (>= 0.10.2)
